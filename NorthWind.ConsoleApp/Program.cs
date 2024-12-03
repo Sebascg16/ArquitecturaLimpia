@@ -2,18 +2,12 @@
 
 builder.Services.AddNorthWindServices();
 
-builder.Services.AddFileWriter();
-builder.Services.AddConsoleWriter();
-builder.Services.AddDebugWriter();
+using IHost AppHost = builder.Build();
 
-builder.Services.AddSingleton<AppLogger>();
-builder.Services.AddSingleton<ProductService>();
-using var AppHost = builder.Build();
-
-AppLogger Logger = AppHost.Services.GetRequiredService<AppLogger>();
+IAppLogger Logger = AppHost.Services.GetRequiredService<IAppLogger>();
 Logger.WriteLog("Application started.");
 
 
-ProductService Service = AppHost.Services.GetRequiredService<ProductService>();
+IProductService Service = AppHost.Services.GetRequiredService<IProductService>();
 Service.Add("Demo", "Azúcar refinada");
 

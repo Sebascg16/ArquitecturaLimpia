@@ -14,6 +14,7 @@ public static class DependencyContainer
         this IServiceCollection services)
     {
         services.AddDebugWriter();
+        services.AddServices();
         return services;
     }
 

@@ -56,3 +56,5 @@ C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.ConsoleApp\bin\De
 C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.ConsoleApp\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.ConsoleApp\bin\Debug\net8.0\NorthWind.IoC.dll
 C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.ConsoleApp\bin\Debug\net8.0\NorthWind.IoC.pdb
+C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.ConsoleApp\bin\Debug\net8.0\NorthWind.Core.dll
+C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.ConsoleApp\bin\Debug\net8.0\NorthWind.Core.pdb

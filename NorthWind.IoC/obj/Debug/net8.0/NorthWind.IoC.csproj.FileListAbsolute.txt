@@ -16,3 +16,5 @@ C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.IoC\obj\Debug\net
 C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.IoC\obj\Debug\net8.0\refint\NorthWind.IoC.dll
 C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.IoC\obj\Debug\net8.0\NorthWind.IoC.pdb
 C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.IoC\obj\Debug\net8.0\ref\NorthWind.IoC.dll
+C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.IoC\bin\Debug\net8.0\NorthWind.Core.dll
+C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.IoC\bin\Debug\net8.0\NorthWind.Core.pdb
