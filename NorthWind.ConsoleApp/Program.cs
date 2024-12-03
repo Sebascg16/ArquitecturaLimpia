@@ -1,7 +1,11 @@
 ﻿HostApplicationBuilder builder = Host.CreateApplicationBuilder();
 
-builder.Services.AddSingleton<IUserActionWriter,DebugWriter>();
-builder.Services.AddSingleton<IUserActionWriter,ConsoleWriter>();
+builder.Services.AddNorthWindServices();
+
+builder.Services.AddFileWriter();
+builder.Services.AddConsoleWriter();
+builder.Services.AddDebugWriter();
+
 builder.Services.AddSingleton<AppLogger>();
 builder.Services.AddSingleton<ProductService>();
 using var AppHost = builder.Build();
