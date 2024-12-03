@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NorthWind.Entities
-build_property.ProjectDir = C:\Users\Usuario\Documents\Universidad\demos\NorthWind\NorthWind.Entities\
+build_property.ProjectDir = C:\Users\Usuario\Desktop\TrabajoRomo\demos\NorthWind\NorthWind.Entities\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

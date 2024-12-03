@@ -1,8 +1,4 @@
-﻿using NorthWind.Entities.Interfaces;
-using NorthWind.Entities.ValueObjects;
-
-
-namespace NorthWind.ConsoleApp.Services;
+﻿namespace NorthWind.ConsoleApp.Services;
 
     internal class AppLogger(IUserActionWriter writer)
     {
@@ -14,3 +10,4 @@ namespace NorthWind.ConsoleApp.Services;
 
     }
 
+ 

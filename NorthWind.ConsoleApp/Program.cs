@@ -1,7 +1,14 @@
 ﻿using NorthWind.ConsoleApp.Services;
 using NorthWind.Entities.Interfaces;
+using NorthWind.Writers;
+using System.Globalization;
 
-IUserActionWriter Writer = default;
+IUserActionWriter Writer = new DebugWriter();
 
 AppLogger Logger = new AppLogger(Writer);
 Logger.WriteLog("Application started.");
+
+
+ProductService Service = new ProductService(Writer);
+Service.Add("Demo", "Azúcar refinada");
+
