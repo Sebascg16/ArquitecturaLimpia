@@ -1,4 +1,4 @@
-﻿namespace NorthWind.ConsoleApp.Services;
+﻿ namespace NorthWind.ConsoleApp.Services;
 
     internal class AppLogger(IUserActionWriter writer)
     {

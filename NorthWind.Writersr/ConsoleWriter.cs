@@ -1,7 +1,7 @@
 ﻿using NorthWind.Entities.Interfaces;
 using NorthWind.Entities.ValueObjects;
 
-namespace NorthWind.Writersr;
+namespace NorthWind.Writers;
 
 public class ConsoleWriter : IUserActionWriter
 {
